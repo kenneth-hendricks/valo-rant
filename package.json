@@ -1,0 +1,23 @@
+{
+  "name": "valor-rant",
+  "version": "1.0.0",
+  "description": "A shit talking discord Valorant chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenneth-hendricks/valo-rant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenneth-hendricks/valo-rant/issues"
+  },
+  "homepage": "https://github.com/kenneth-hendricks/valo-rant#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}

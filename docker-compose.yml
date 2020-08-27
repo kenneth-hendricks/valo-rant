@@ -1,0 +1,10 @@
+version: "3.6"
+
+services:
+  client:
+    build: ./docker
+    restart: always
+    volumes:
+      - ./:/valor-rant
+    env_file:
+      - .env
