@@ -7,6 +7,4 @@ client.on("message", (message) => {
   }
 });
 
-console.log();
-
 client.login(process.env.DISCORD_TOKEN);

@@ -8,8 +8,10 @@ RUN apt-get update -y \
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -y nodejs
 
+RUN npm install -g nodemon
+
 RUN mkdir /valor-rant
 
 WORKDIR /valor-rant
 
-CMD npm install && node .
+CMD npm install && nodemon .
